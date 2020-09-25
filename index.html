@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <br>
+    <center><h1 style="color: #f0196f; text-shadow: 3px 3px 5px rgba(153, 151, 153, 0.9);">GITHUB VERSION CONTROL</h1></center>
+    <hr style="width: 80%;">
+    <br>
+    <div style="width: 70%; padding-left: 100px;">
+    <ul>
+        <li><b><h3 style="color: rgb(172, 201, 11);">Version  control : </h3></b>
+            <h4 style="color: rgb(91, 94, 94);">
+                is a system that records changes to a file or set of files
+                over time so that you can recall specific versions later. 
+                For the examples in this book, you will use software source 
+                code as the files being version controlled, though in reality you can do this
+                with nearly any type of file on a computer.
+            </h4>
+       
+        </li> <br>
+        <li><b><h3 style="color: rgb(172, 201, 11);">Use of Version Control System :</h3> </b>  
+            <ol>
+                <li>
+                    
+                        <h4 style="color:#f0196f ;"> <b><u>A Repository:
+                        </u></b> <br></h4>
+                        <h4 style="color: rgb(91, 94, 94) ;">
+                            It can be thought as a database of changes. It contains
+                            all the edits and historical versions (snapshots) of the project.
+                      
+                        </h4>
+                         
+                       
+                </li>
+                <li>
+                    <b><h4 style="color: #f0196f;"><u>Copy of work:</u></h4></b>
+                    <h4 style="color:  rgb(91, 94, 94);">
+                        It is the personal copy of all the files in a project. You can edit to this copy, without affecting the work of others and you can finally commit your change
+                        repository when you are done making your changes.
+                    </h4>
+
+                </li>
+            </ol>
+        </li>
+    </ul>
+    </div>
+
+    <br><br><br>
+    <center>
+        
+        <table border="2px" class="container text-center">
+        <tr style="text-align: center; background-color:  rgb(91, 94, 94); color:white;">
+        <th style="width: 30%;">Version Control <br> Systems</th>
+       
+        <th style="width: 50%;">Details</th>
+        <th style="width: 20%;">More Info.</th>
+        </tr>
+        <tr style="text-align: center; background-color:rgb(172, 201, 11) ; color: white;">
+            <td><b>Local Version Control Systems</b></td>
+           
+            <td><p>It is one of the simplest forms and has a database that kept all the changes to files under revision control. RCS is one of the most common VCS tools. It keeps patch sets (differences between files) in a special format on disk. By adding up all the patches it can then re-create what any file looked like at any point in time.</p></td>
+            <td><a href="https://www.geeksforgeeks.org/version-control-systems" style="color: white;"><u>About</u></a></td>
+        </tr>
+        <tr style="text-align: center; background-color: rgb(172, 201, 11); color: white;">
+            <td><b>Centralized Version Control Systems</b></td>
+            <!-- <td><img src="cvcss.png" width="300" height="200"></td> -->
+            <td><p> Centralized version control systems contain just one repository and each user gets their own working copy. You need to commit to reflecting your changes in the repository. It is possible for others to see your changes by updating.The benefit of CVCS (Centralized Version Control Systems) makes collaboration amongst developers along with providing an insight to a certain extent on what everyone else is doing on the project.</p></td>
+            <td><a href="https://www.geeksforgeeks.org/version-control-systems" style="color: white;"><u>About</u></a></td>
+        </tr>
+        <tr style="text-align: center; background-color: rgb(172, 201, 11); color:white;">
+            <td><b>Distributed Version Control Systems</b></td>
+            <!-- <td><img src="di.png" width="300" height="200"></td> -->
+            <td><p>Distributed version control systems contain multiple repositories. Each user has their own repository and working copy. Just committing your changes will not give others access to your changes. This is because commit will reflect those changes in your local repository and you need to push them in order to make them visible on the central repository. Similarly, When you update, you do not get other’s changes unless you have first pulled those changes into your repository.</p></td>
+            <td><a href="https://www.geeksforgeeks.org/version-control-systems" style="color: white;"><u>About</u></a></td>
+        </tr>
+
+
+    </table></center>
+
+<br><br><br><br>
+<div style="">
+    <center><h1 style="color: #e6005c;text-shadow: 3px 3px 5px rgba(153, 151, 153, 0.9);">GITHUB COMMANDS</h1></center>
+    <ul style="padding-left: 50px; padding-right: 50px;">
+        <li style="border: 1px solid rgb(172, 201, 11) ;  padding:20px;"><h2 style="color: rgb(74, 77, 77);"><u>git log</u></h2>To check the history of commits for our reference.</li>
+    </ul>
+    <ul style="padding-left: 50px; padding-right: 50px;">
+        <li style="border: 1px solid rgb(172, 201, 11) ; padding:20px"><h2 style="color: rgb(74, 77, 77);"><u>git add</u></h2>To add a specific list of files to staging area.</li>
+    </ul>
+    <ul style="padding-left: 50px; padding-right: 50px;">
+        <li style="border: 1px solid rgb(172, 201, 11) ;padding:20px"><h2 style="color: rgb(74, 77, 77);"><u>git status</u></h2>To see whats changed since last commit.It shows all the files that have been added and modified and ready to be commmitted and files which are untracked</li>
+    </ul>
+    <ul style="padding-left: 50px; padding-right: 50px;">
+        <li style="border: 1px solid rgb(172, 201, 11) ;padding:20px"><h2 style="color: rgb(74, 77, 77);"><u>git config</u></h2>To set the basic configurations on github like your name and email.</li>
+    </ul>
+    <ul style="padding-left: 50px; padding-right: 50px;">
+        <li style="border: 1px solid rgb(172, 201, 11) ; padding:20px"><h2 style="color: rgb(74, 77, 77);"><u>git help</u></h2>Take help from github help section for different commands and other errors</li>
+    </ul>
+</div>
+<div>
+
+    <center><h3 style="color: rgb(172, 201, 11)  ;"><b>Name : Rhythm Anand</b></h3></center>
+    <center><h3 style="color: rgb(172, 201, 11)  ;"><b>Roll no : 1906004</b></h3></center>
+    <center><h3 style="color: rgb(172, 201, 11)  ;"><b>Assignment-4</b></h3></center>
+</div>
+</body>
+</html>
